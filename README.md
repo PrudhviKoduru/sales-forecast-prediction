@@ -1,42 +1,75 @@
-# sales-forecast-prediction
-  An end-to-end AWS project on Sales Forecasting using Machine Learning .
-  Sales Prediction & Visualization Using AWS
-Objective:
-To predict future sales using machine learning and visualize insights using AWS services.
+# 📊 Sales Prediction & Visualization Using AWS
 
-Tools Used:
+## 🧠 Objective
+To **predict future sales using machine learning** and **visualize insights using AWS services**, providing actionable business intelligence.
 
-AWS S3, SageMaker, QuickSight
+---
 
-Python, Pandas, XGBoost
+## 🛠️ Tools & Technologies Used
+- **AWS S3** – For storage of datasets and prediction outputs.
+- **Amazon QuickSight** – For building dashboards and visuals.
+- **Python (Jupyter Notebook)** – Data cleaning, feature engineering, and model training.
+- **XGBoost** – For regression-based sales prediction.
+- **Pandas, NumPy, Matplotlib, Seaborn** – For data analysis and EDA.
 
-Jupyter Notebook
+---
 
-Steps Taken:
+## 📈 Project Workflow
 
-Uploaded raw data to S3.
+1. **Data Upload**
+   - Uploaded raw dataset to an **S3 bucket**.
 
-Performed EDA and data cleaning in Python.
+2. **Data Preprocessing & EDA**
+   - Cleaned and explored the dataset using **Pandas** and visualized key trends.
 
-Trained an XGBoost model to predict sales.
+3. **Model Training**
+   - Built and trained an **XGBoost regression model** to predict sales.
 
-Exported and uploaded predictions to S3.
+4. **Prediction & Storage**
+   - Saved predictions to a `.csv` file and uploaded it to **S3**.
 
-Used QuickSight to create a dashboard showcasing:
+5. **Dashboard Creation**
+   - Connected **QuickSight** to the prediction file in S3.
+   - Created visuals:
+     - Predicted vs Actual Sales
+     - Sales trends over time
+     - Key product segments and regional insights
 
-Predicted vs Actual Sales
+---
 
-Sales Trends
+## ✅ Outcome
 
-Key product categories and regions
+- A professional-quality **interactive dashboard** was created in **QuickSight**.
+- Delivered **insights based on actual and predicted sales**.
+- Demonstrated end-to-end use of **AWS services + Machine Learning** for business intelligence.
 
-Designed visuals to deliver business insights.
+---
 
-Outcome:
-A production-style dashboard that visually explains sales performance and model-driven predictions.
+## 🚀 Future Enhancements
 
-Future Improvements:
+- Deploy the model using **AWS Lambda** or **SageMaker Endpoint** for real-time predictions.
+- Automate the pipeline using **AWS Glue** or **Step Functions**.
+- Add alerting or anomaly detection for sudden sales changes.
 
-Deploy the model via AWS Lambda or SageMaker Endpoint.
+---
 
-Automate the pipeline using AWS Glue or Step Functions.
+## 📷 Screenshots
+
+![Dashboard Preview](isuals/dashboard_screenshot.png)
+
+---
+
+
+---
+
+## 🧑‍💻 Author
+
+**Koduru Prudhvinath Reddy**  
+_Data Science Student_  
+[LinkedIn](www.linkedin.com/in/prudhvi-koduru) • [Portfolio](https://koduruprudhvi03.wixsite.com/student-portfolio)
+
+---
+
+
+
+
