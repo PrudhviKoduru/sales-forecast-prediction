@@ -55,7 +55,7 @@ To **predict future sales using machine learning** and **visualize insights usin
 
 ## 📷 Screenshots
 
-![Dashboard Preview](isuals/dashboard_screenshot.png)
+![Dashboard Preview](https://github.com/PrudhviKoduru/sales-forecast-prediction/blob/d84fe3fe4d98bcc360086424b22ee8ddd463f4af/Quicksight%20Dashboard/dashboard.png)
 
 ---
 
